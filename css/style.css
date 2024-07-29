@@ -169,19 +169,23 @@ body {
 }
 
 .transparent-button {
-    background-color: transparent;
-    border: 2px solid gold;
-    color: gold;
-    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Warna hitam dengan 30% opasitas */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Border putih dengan 30% opasitas */
+    color: white;
+    padding: 20px;
     font-size: 16px;
+    text-align: center;
+    border-radius: 10px; /* Sesuaikan dengan bentuk border di gambar */
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
 .transparent-button:hover {
-    background-color: gold;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.3); /* Latar belakang putih dengan 30% opasitas saat di-hover */
+    color: black; /* Warna teks berubah menjadi hitam */
+    border: 2px solid rgba(255, 255, 255, 0.7); /* Border putih dengan 70% opasitas saat di-hover */
 }
+
 
 
 /* Menu Container Codes */
