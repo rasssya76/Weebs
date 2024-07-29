@@ -169,20 +169,20 @@ body {
 }
 
 .transparent-button {
-  background-color: var(--menu_background_color); /* Warna background tombol */
-  color: var(--menu_text_color); /* Warna teks */
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: none; 
-  cursor: pointer;
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.transparent-button:active {
-  opacity: 0; /* Transparansi saat tombol ditekan */
+.transparent-button:hover {
+    background-color: gold;
+    color: white;
 }
+
 
 /* Menu Container Codes */
 
