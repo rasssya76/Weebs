@@ -169,8 +169,8 @@ body {
 }
 
 .transparent-button {
-  background-color: #008CBA; /* Warna background tombol */
-  color: white; /* Warna teks */
+  background-color: var(--menu_background_color); /* Warna background tombol */
+  color: var(--menu_text_color); /* Warna teks */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -181,7 +181,7 @@ body {
 }
 
 .transparent-button:active {
-  opacity: 0.5; /* Transparansi saat tombol ditekan */
+  opacity: 1; /* Transparansi saat tombol ditekan */
 }
 
 /* Menu Container Codes */
