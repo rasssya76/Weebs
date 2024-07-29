@@ -193,6 +193,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    margin: 0;
 }
 
 .container {
@@ -223,6 +224,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    position: fixed; /* Menempatkan tombol hamburger di posisi tetap */
+    top: 20px; /* Jarak dari atas */
+    right: 20px; /* Jarak dari kanan */
 }
 
 .line {
