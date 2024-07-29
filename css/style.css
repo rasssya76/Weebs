@@ -164,6 +164,10 @@ body {
   font-size: 1.1em;
 }
 
+.transparent-button:active {
+  opacity: 0.5; /* Transparansi saat tombol ditekan */
+}
+
 .header_nav_menu_item + .header_nav_menu_item {
   margin-left: 0.4em;
 }
