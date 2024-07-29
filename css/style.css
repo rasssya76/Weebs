@@ -181,7 +181,7 @@ body {
 }
 
 .transparent-button:active {
-  opacity: 1; /* Transparansi saat tombol ditekan */
+  opacity: 0; /* Transparansi saat tombol ditekan */
 }
 
 /* Menu Container Codes */
